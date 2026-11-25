@@ -1,0 +1,60 @@
+{
+    "model_file": "cv_optimized_random_forest.joblib",
+    "overlap_definition": "Exact predictor match against original training CSV",
+    "total_test_rows": 82332,
+    "overlapping_rows": 8541,
+    "non_overlapping_rows": 73791,
+    "results": [
+        {
+            "Subset": "Full Official Test",
+            "Observations": 82332,
+            "Attack Percentage": 55.06000097167566,
+            "Accuracy": 0.8637589272700773,
+            "Precision": 0.8078582128611909,
+            "Recall": 0.9874040412953322,
+            "F1 Score": 0.8886528553986043,
+            "ROC-AUC": 0.9810060922896777,
+            "Average Precision": 0.9857602094925006,
+            "False Positive Rate": 0.2877297297297297,
+            "False Negative Rate": 0.012595958704667785,
+            "TN": 26354,
+            "FP": 10646,
+            "FN": 571,
+            "TP": 44761
+        },
+        {
+            "Subset": "Overlapping Test",
+            "Observations": 8541,
+            "Attack Percentage": 82.76548413534715,
+            "Accuracy": 0.9360730593607306,
+            "Precision": 0.9297667676900777,
+            "Recall": 0.998160984580563,
+            "F1 Score": 0.9627507163323782,
+            "ROC-AUC": 0.9987271718372317,
+            "Average Precision": 0.9997503565533558,
+            "False Positive Rate": 0.36209239130434784,
+            "False Negative Rate": 0.0018390154194369783,
+            "TN": 939,
+            "FP": 533,
+            "FN": 13,
+            "TP": 7056
+        },
+        {
+            "Subset": "Non-Overlapping Test",
+            "Observations": 73791,
+            "Attack Percentage": 51.85320703066769,
+            "Accuracy": 0.8553888685612067,
+            "Precision": 0.7885106027019114,
+            "Recall": 0.9854167211143925,
+            "F1 Score": 0.8760353620427273,
+            "ROC-AUC": 0.9781716556260852,
+            "Average Precision": 0.9814645576855304,
+            "False Positive Rate": 0.2846487277640171,
+            "False Negative Rate": 0.014583278885607506,
+            "TN": 25415,
+            "FP": 10113,
+            "FN": 558,
+            "TP": 37705
+        }
+    ]
+}

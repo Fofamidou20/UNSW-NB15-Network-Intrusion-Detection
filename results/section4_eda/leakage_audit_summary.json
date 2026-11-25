@@ -1,0 +1,14 @@
+{
+    "training_rows": 175341,
+    "testing_rows": 82332,
+    "training_duplicates": 67601,
+    "testing_duplicates": 26387,
+    "training_testing_shared_unique_records": 940,
+    "testing_rows_matching_training": 4247,
+    "model_training_rows": 140272,
+    "validation_rows": 35069,
+    "validation_rows_matching_training": 15309,
+    "validation_overlap_percentage": 43.65393937665745,
+    "conflicting_label_groups": 229,
+    "random_state": 42
+}

@@ -1,0 +1,4 @@
+Partition,Rows,Normal,Attack,Attack Percent
+Model Training,140272,44800,95472,68.0621
+Validation,35069,11200,23869,68.063
+Independent Test,82332,37000,45332,55.06

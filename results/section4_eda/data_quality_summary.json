@@ -1,0 +1,12 @@
+{
+    "training_rows": 175341,
+    "testing_rows": 82332,
+    "training_columns": 45,
+    "testing_columns": 45,
+    "original_predictors": 42,
+    "training_missing_values": 0,
+    "testing_missing_values": 0,
+    "training_duplicates_excluding_id": 67601,
+    "testing_duplicates_excluding_id": 26387,
+    "random_state": 42
+}

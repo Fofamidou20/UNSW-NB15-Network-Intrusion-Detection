@@ -1,0 +1,42 @@
+{
+    "method": "StratifiedGroupKFold",
+    "folds": 3,
+    "random_state": 42,
+    "group_definition": "Identical predictors",
+    "total_observations": 175341,
+    "unique_groups": 101040,
+    "summary": {
+        "Accuracy": {
+            "mean": 0.9529773437956154,
+            "std": 0.0007147480397026689
+        },
+        "Precision": {
+            "mean": 0.9528933970449066,
+            "std": 0.0014656042183062712
+        },
+        "Recall": {
+            "mean": 0.9793281261573278,
+            "std": 0.0009979809362222465
+        },
+        "F1 Score": {
+            "mean": 0.9659290007723871,
+            "std": 0.0004924798969072289
+        },
+        "ROC-AUC": {
+            "mean": 0.9923931073204466,
+            "std": 0.00020182744212204749
+        },
+        "Average Precision": {
+            "mean": 0.9962268105073236,
+            "std": 0.00018575506434746398
+        },
+        "False Positive Rate": {
+            "mean": 0.10317853342783301,
+            "std": 0.0034469959076900217
+        },
+        "False Negative Rate": {
+            "mean": 0.02067187384267224,
+            "std": 0.0009979809362222307
+        }
+    }
+}

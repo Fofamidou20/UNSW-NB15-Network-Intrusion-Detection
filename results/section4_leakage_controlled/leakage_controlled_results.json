@@ -1,0 +1,24 @@
+{
+    "random_state": 42,
+    "split_method": "GroupShuffleSplit",
+    "group_definition": "Identical predictor values",
+    "training_rows": 140094,
+    "validation_rows": 35247,
+    "training_attack_percentage": 68.01005039473496,
+    "validation_attack_percentage": 68.26963996935909,
+    "shared_predictor_groups": 0,
+    "metrics": {
+        "Accuracy": 0.9537833007064431,
+        "Precision": 0.9535419699175157,
+        "Recall": 0.9800523625483106,
+        "F1 Score": 0.9666154319090071,
+        "ROC-AUC": 0.9924292173822209,
+        "Average Precision": 0.9964166273789403,
+        "False Positive Rate": 0.10273605150214592,
+        "False Negative Rate": 0.019947637451689315,
+        "TN": 10035,
+        "FP": 1149,
+        "FN": 480,
+        "TP": 23583
+    }
+}

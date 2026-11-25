@@ -1,0 +1,5 @@
+Partition,Label,Class,Count,Percentage
+Training,0,Normal,56000,31.9378
+Training,1,Attack,119341,68.0622
+Testing,0,Normal,37000,44.94
+Testing,1,Attack,45332,55.06

@@ -1,0 +1,23 @@
+{
+    "dataset": "UNSW_NB15_training-set.csv",
+    "rows": 175341,
+    "columns": 45,
+    "numeric_predictor_count": 39,
+    "selected_features": [
+        "dur",
+        "sbytes",
+        "dbytes",
+        "spkts",
+        "dpkts",
+        "rate",
+        "sttl",
+        "dttl",
+        "sload",
+        "dload",
+        "smean",
+        "dmean"
+    ],
+    "analysis_partition": "training_only",
+    "log_transform_applied_to_model": false,
+    "outliers_removed": false
+}

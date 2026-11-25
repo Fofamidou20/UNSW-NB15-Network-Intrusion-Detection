@@ -1,0 +1,16 @@
+{
+    "status": "passed",
+    "sklearn_version": "1.9.1",
+    "test_records": 82332,
+    "metrics": {
+        "Accuracy": 0.8637589272700773,
+        "Precision": 0.8078582128611909,
+        "Recall": 0.9874040412953322,
+        "F1 Score": 0.8886528553986043,
+        "ROC-AUC": 0.9810060922896777,
+        "True Negatives": 26354,
+        "False Positives": 10646,
+        "False Negatives": 571,
+        "True Positives": 44761
+    }
+}
