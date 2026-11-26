@@ -75,3 +75,64 @@ Raw datasets and serialized models are excluded. Only load joblib files you gene
 ## Packaging verification
 
 The original two unit tests passed in the packaging environment (Python 3.13.5, scikit-learn 1.8.0). This is not the recorded experimental environment. Full retraining, exact dependency installation and external validation were not performed during packaging. No original Python algorithm code was changed.
+## Computational Reproducibility and Evidence Integrity
+
+The UNSW-NB15 machine learning intrusion detection
+experimental workflow was re-executed in a fresh
+repository clone using the existing experimental
+software environment.
+
+The reproducibility assessment included four-model
+retraining, randomized hyperparameter search, and
+final evaluation of the cross-validation-selected
+Random Forest model.
+
+### Reproducibility Results
+
+| Verification Dimension | Result |
+|---|---|
+| Models retrained | 5 |
+| Experimental components | 3 |
+| Quantitative comparisons | 166 |
+| Strict numerical tolerance | 1e-10 |
+| Strict numerical comparisons passed | 164/166 |
+| Strict numerical success rate | 98.80% |
+| Strict numerical status | FAILED |
+| Practical numerical tolerance | 1e-8 |
+| Practical numerical comparisons passed | 166/166 |
+| Practical numerical success rate | 100% |
+| Practical numerical status | PASSED |
+| Hyperparameter comparisons | 110/110 exact |
+| Final evaluation comparisons | 12/12 passed |
+| Original evidence integrity | 13/13 passed |
+| Supplementary evidence integrity | 31/31 passed |
+| Complete byte-level reproducibility | Not established |
+| Independent environment reconstruction | Not tested |
+| Independent researcher replication | Not tested |
+| External dataset generalization | Not established |
+| Production deployment readiness | Not established |
+
+The practical numerical tolerance was introduced as
+a post hoc sensitivity assessment. The two original
+strict numerical discrepancies remain documented.
+
+### Reproducibility Documentation
+
+- [Formal Reproducibility Documentation](REPRODUCIBILITY.md)
+- [Consolidated Reproducibility Summary](verification_logs/consolidated_reproducibility_summary.json)
+- [Consolidated Reproducibility Results](verification_logs/consolidated_reproducibility_results.csv)
+- [Original Evidence Manifest](verification_logs/verification_evidence_manifest.csv)
+- [Supplementary Evidence Manifest](verification_logs/supplementary_evidence_manifest.csv)
+- [Original Evidence Verification Script](verification_logs/verify_evidence_manifest.py)
+- [Supplementary Evidence Verification Script](verification_logs/verify_supplementary_manifest.py)
+- [Reproduced Experimental Results](verification_logs/reproduced_results/)
+
+### Final Reproducibility Assessment
+
+PRACTICAL_REPRODUCIBILITY_PASSED_STRICT_DISCREPANCIES_RETAINED
+
+The results support transparent and auditable
+computational reproduction under the tested
+conditions without implying universal determinism,
+independent replication, external generalization,
+or production deployment readiness.

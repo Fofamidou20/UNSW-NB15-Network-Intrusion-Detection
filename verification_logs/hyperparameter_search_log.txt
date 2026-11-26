@@ -1,0 +1,42 @@
+SHA256 UNSW_NB15_training-set.csv: bec7dd5ec88dc2a0ccc7a07879d338395ed7421750f675fd0339e07dfe0648fa
+SHA256 UNSW_NB15_testing-set.csv: 734fe6642edf758f7c94d7d9149426b49d202fe8e7bf0bef47392489c3c0a559
+Starting Random Forest hyperparameter search...
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+[CV] END classifier__max_depth=15, classifier__max_features=log2, classifier__min_samples_leaf=1, classifier__min_samples_split=10, classifier__n_estimators=100; total time=   5.0s
+[CV] END classifier__max_depth=15, classifier__max_features=log2, classifier__min_samples_leaf=1, classifier__min_samples_split=10, classifier__n_estimators=100; total time=   7.6s
+[CV] END classifier__max_depth=15, classifier__max_features=log2, classifier__min_samples_leaf=1, classifier__min_samples_split=10, classifier__n_estimators=100; total time=  10.1s
+[CV] END classifier__max_depth=25, classifier__max_features=sqrt, classifier__min_samples_leaf=2, classifier__min_samples_split=2, classifier__n_estimators=100; total time=  25.3s
+[CV] END classifier__max_depth=25, classifier__max_features=sqrt, classifier__min_samples_leaf=2, classifier__min_samples_split=2, classifier__n_estimators=100; total time=  21.1s
+[CV] END classifier__max_depth=25, classifier__max_features=sqrt, classifier__min_samples_leaf=2, classifier__min_samples_split=2, classifier__n_estimators=100; total time=  18.3s
+[CV] END classifier__max_depth=30, classifier__max_features=log2, classifier__min_samples_leaf=1, classifier__min_samples_split=5, classifier__n_estimators=80; total time=  15.6s
+[CV] END classifier__max_depth=30, classifier__max_features=log2, classifier__min_samples_leaf=1, classifier__min_samples_split=5, classifier__n_estimators=80; total time=  15.6s
+[CV] END classifier__max_depth=30, classifier__max_features=log2, classifier__min_samples_leaf=1, classifier__min_samples_split=5, classifier__n_estimators=80; total time=  15.9s
+[CV] END classifier__max_depth=15, classifier__max_features=log2, classifier__min_samples_leaf=1, classifier__min_samples_split=5, classifier__n_estimators=121; total time=   8.2s
+[CV] END classifier__max_depth=15, classifier__max_features=log2, classifier__min_samples_leaf=1, classifier__min_samples_split=5, classifier__n_estimators=121; total time=   8.5s
+[CV] END classifier__max_depth=15, classifier__max_features=log2, classifier__min_samples_leaf=1, classifier__min_samples_split=5, classifier__n_estimators=121; total time=   8.5s
+[CV] END classifier__max_depth=25, classifier__max_features=log2, classifier__min_samples_leaf=1, classifier__min_samples_split=2, classifier__n_estimators=100; total time=  20.0s
+[CV] END classifier__max_depth=25, classifier__max_features=log2, classifier__min_samples_leaf=1, classifier__min_samples_split=2, classifier__n_estimators=100; total time=  20.5s
+[CV] END classifier__max_depth=25, classifier__max_features=log2, classifier__min_samples_leaf=1, classifier__min_samples_split=2, classifier__n_estimators=100; total time=  20.3s
+[CV] END classifier__max_depth=15, classifier__max_features=sqrt, classifier__min_samples_leaf=1, classifier__min_samples_split=10, classifier__n_estimators=100; total time=   9.7s
+[CV] END classifier__max_depth=15, classifier__max_features=sqrt, classifier__min_samples_leaf=1, classifier__min_samples_split=10, classifier__n_estimators=100; total time=   9.4s
+[CV] END classifier__max_depth=15, classifier__max_features=sqrt, classifier__min_samples_leaf=1, classifier__min_samples_split=10, classifier__n_estimators=100; total time=   9.7s
+[CV] END classifier__max_depth=15, classifier__max_features=log2, classifier__min_samples_leaf=1, classifier__min_samples_split=10, classifier__n_estimators=121; total time=   8.0s
+[CV] END classifier__max_depth=15, classifier__max_features=log2, classifier__min_samples_leaf=1, classifier__min_samples_split=10, classifier__n_estimators=121; total time=   8.0s
+[CV] END classifier__max_depth=15, classifier__max_features=log2, classifier__min_samples_leaf=1, classifier__min_samples_split=10, classifier__n_estimators=121; total time=   8.2s
+[CV] END classifier__max_depth=25, classifier__max_features=sqrt, classifier__min_samples_leaf=4, classifier__min_samples_split=5, classifier__n_estimators=80; total time=  11.5s
+[CV] END classifier__max_depth=25, classifier__max_features=sqrt, classifier__min_samples_leaf=4, classifier__min_samples_split=5, classifier__n_estimators=80; total time=  11.2s
+[CV] END classifier__max_depth=25, classifier__max_features=sqrt, classifier__min_samples_leaf=4, classifier__min_samples_split=5, classifier__n_estimators=80; total time=  11.5s
+[CV] END classifier__max_depth=20, classifier__max_features=sqrt, classifier__min_samples_leaf=1, classifier__min_samples_split=5, classifier__n_estimators=100; total time=  15.3s
+[CV] END classifier__max_depth=20, classifier__max_features=sqrt, classifier__min_samples_leaf=1, classifier__min_samples_split=5, classifier__n_estimators=100; total time=  15.4s
+[CV] END classifier__max_depth=20, classifier__max_features=sqrt, classifier__min_samples_leaf=1, classifier__min_samples_split=5, classifier__n_estimators=100; total time=  15.1s
+[CV] END classifier__max_depth=25, classifier__max_features=log2, classifier__min_samples_leaf=2, classifier__min_samples_split=2, classifier__n_estimators=150; total time=34.8min
+[CV] END classifier__max_depth=25, classifier__max_features=log2, classifier__min_samples_leaf=2, classifier__min_samples_split=2, classifier__n_estimators=150; total time=482.0min
+[CV] END classifier__max_depth=25, classifier__max_features=log2, classifier__min_samples_leaf=2, classifier__min_samples_split=2, classifier__n_estimators=150; total time=  23.5s
+
+Best Parameters:
+{'classifier__n_estimators': 100, 'classifier__min_samples_split': 2, 'classifier__min_samples_leaf': 1, 'classifier__max_features': 'log2', 'classifier__max_depth': 25}
+
+Best Cross-Validation F1 Score:
+0.969318
+
+Hyperparameter search completed!

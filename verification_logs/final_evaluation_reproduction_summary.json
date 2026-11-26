@@ -1,0 +1,23 @@
+{
+    "model": "cv_optimized_random_forest",
+    "metrics_compared": 12,
+    "strict_tolerance": 1e-10,
+    "strict_passed": 12,
+    "strict_failed": 0,
+    "practical_tolerance": 1e-08,
+    "practical_passed": 12,
+    "practical_failed": 0,
+    "maximum_absolute_difference": 2.3804069826383056e-11,
+    "confusion_matrix_counts_exact": true,
+    "original_test_observations": 82332,
+    "reproduced_test_observations": 82332,
+    "confusion_matrix_totals_verified": true,
+    "class_totals_verified": true,
+    "original_csv_json_consistent": true,
+    "reproduced_csv_json_consistent": true,
+    "all_output_files_byte_identical": false,
+    "strict_status": "PASSED",
+    "practical_status": "PASSED",
+    "tolerance_assessment": "Original strict criterion and previously introduced practical sensitivity criterion",
+    "verification_scope": "Retrained cross-validation-selected Random Forest evaluated in a fresh repository clone using the existing experimental environment"
+}

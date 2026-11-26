@@ -1,0 +1,18 @@
+{
+    "best_parameters_match": true,
+    "original_best_cv_f1": 0.9693178753869902,
+    "reproduced_best_cv_f1": 0.9693178753869902,
+    "best_cv_f1_absolute_difference": 0.0,
+    "search_configuration_match": true,
+    "candidate_count_match": true,
+    "candidate_parameters_match": true,
+    "candidates_compared": 10,
+    "metrics_per_candidate": 11,
+    "total_comparisons": 110,
+    "passed_comparisons": 110,
+    "failed_comparisons": 0,
+    "maximum_absolute_difference": 0.0,
+    "numerical_tolerance": 1e-10,
+    "timing_columns_excluded": true,
+    "overall_status": "PASSED"
+}

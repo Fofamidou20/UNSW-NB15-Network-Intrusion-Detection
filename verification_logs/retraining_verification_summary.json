@@ -1,0 +1,14 @@
+{
+    "models_compared": 4,
+    "metrics_per_model": 11,
+    "total_comparisons": 44,
+    "passed_comparisons": 42,
+    "failed_comparisons": 2,
+    "maximum_absolute_difference": 2.8393463136211494e-09,
+    "numerical_tolerance": 1e-10,
+    "original_sha256": "c9ac5646989ac414f74b06cc3dd89375e56b51d2af3e40cb56346418105b97f7",
+    "reproduced_sha256": "bdc4beda5210ac94138f64b5adaba5cb387eed4dac88d8cd119bd94da5efcb45",
+    "byte_identical": false,
+    "confusion_matrix_totals_verified": true,
+    "overall_status": "FAILED"
+}

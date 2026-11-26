@@ -1,0 +1,14 @@
+{
+    "verification_timestamp_utc": "2026-11-26T21:05:11.221622+00:00",
+    "manifest": "supplementary_evidence_manifest.csv",
+    "expected_manifest_sha256": "6e22f1bcd5e47cb04cc74bbaf365e505e5d75ff7314299253db9cfb1a7fc95f6",
+    "actual_manifest_sha256": "6e22f1bcd5e47cb04cc74bbaf365e505e5d75ff7314299253db9cfb1a7fc95f6",
+    "manifest_hash_match": true,
+    "expected_files": 31,
+    "files_verified": 31,
+    "passed": 31,
+    "failed": 0,
+    "integrity_success_rate_percent": 100.0,
+    "overall_status": "PASSED",
+    "verification_scope": "Current evidence files compared against the supplementary SHA-256 manifest"
+}

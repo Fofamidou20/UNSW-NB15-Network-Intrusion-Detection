@@ -1,0 +1,19 @@
+{
+    "models_compared": 4,
+    "metrics_per_model": 11,
+    "total_comparisons": 44,
+    "strict_tolerance": 1e-10,
+    "strict_passed": 42,
+    "strict_failed": 2,
+    "strict_status": "FAILED",
+    "practical_tolerance": 1e-08,
+    "practical_passed": 44,
+    "practical_failed": 0,
+    "maximum_absolute_difference": 2.8393463136211494e-09,
+    "confusion_matrix_counts_exact": true,
+    "confusion_matrix_totals_verified": true,
+    "byte_identical": false,
+    "practical_status": "PASSED",
+    "tolerance_assessment": "Post hoc numerical sensitivity analysis",
+    "verification_scope": "Four retrained models in a fresh repository clone using the existing experimental environment"
+}

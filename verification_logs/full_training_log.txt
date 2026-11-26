@@ -1,0 +1,15 @@
+SHA256 UNSW_NB15_training-set.csv: bec7dd5ec88dc2a0ccc7a07879d338395ed7421750f675fd0339e07dfe0648fa
+SHA256 UNSW_NB15_testing-set.csv: 734fe6642edf758f7c94d7d9149426b49d202fe8e7bf0bef47392489c3c0a559
+Training logistic_regression...
+  test F1: 0.8491
+Training random_forest...
+  test F1: 0.8905
+Training neural_network...
+  test F1: 0.8853
+Training optimized_random_forest...
+  test F1: 0.8916
+                  model  accuracy  precision  recall     f1  roc_auc  average_precision    tn    fp   fn    tp  false_positive_rate
+    logistic_regression    0.8097     0.7535  0.9724 0.8491   0.9556             0.9661 22579 14421 1249 44083               0.3898
+          random_forest    0.8662     0.8103  0.9884 0.8905   0.9823             0.9867 26508 10492  524 44808               0.2836
+         neural_network    0.8591     0.8022  0.9874 0.8853   0.9803             0.9852 25966 11034  569 44763               0.2982
+optimized_random_forest    0.8677     0.8125  0.9877 0.8916   0.9814             0.9860 26668 10332  559 44773               0.2792

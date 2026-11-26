@@ -1,0 +1,10 @@
+{
+    "verification_timestamp_utc": "2026-11-26T21:04:15.722080+00:00",
+    "manifest": "verification_evidence_manifest.csv",
+    "files_verified": 13,
+    "passed": 13,
+    "failed": 0,
+    "integrity_success_rate_percent": 100.0,
+    "overall_status": "PASSED",
+    "verification_scope": "Current evidence files compared against the previously generated SHA-256 manifest"
+}

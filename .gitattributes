@@ -1,0 +1,6 @@
+
+# UNSW-NB15 computational reproducibility evidence
+# Preserve exact evidence bytes for SHA-256 verification.
+# Disable automatic line-ending conversion for verification files.
+
+verification_logs/** -text

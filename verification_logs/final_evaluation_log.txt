@@ -1,0 +1,19 @@
+SHA256 UNSW_NB15_training-set.csv: bec7dd5ec88dc2a0ccc7a07879d338395ed7421750f675fd0339e07dfe0648fa
+SHA256 UNSW_NB15_testing-set.csv: 734fe6642edf758f7c94d7d9149426b49d202fe8e7bf0bef47392489c3c0a559
+Evaluating cross-validation-selected Random Forest...
+
+Final Model Evaluation Results:
+Accuracy: 0.8638
+Precision: 0.8079
+Recall: 0.9874
+F1 Score: 0.8887
+ROC-AUC: 0.9810
+Average Precision: 0.9858
+False Positive Rate: 0.2877
+False Negative Rate: 0.0126
+True Negatives: 26354
+False Positives: 10646
+False Negatives: 571
+True Positives: 44761
+
+Final model evaluation completed!
